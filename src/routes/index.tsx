@@ -1,5 +1,9 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+import PortfolioImage from '~/media/images/2.jpg?jsx';
+import TourImage from '~/media/images/1.jpg?jsx';
+import PicalcBotImage from '~/media/images/3.jpg?jsx';
+import EmobotImage from '~/media/images/4.jpg?jsx';
 
 export default component$(() => {
   return (
@@ -26,6 +30,9 @@ export default component$(() => {
               </li>
               <li>
                 <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
               </li>
             </ul>
             <ul class="floating">
@@ -193,8 +200,8 @@ export default component$(() => {
               &nbsp; based in myanamar
             </p>
             <p class="text-md text-slate-600 poppins-light">
-              Turning your <strong class="text-black">ideas</strong> into 
-              &nbsp;<strong class="text-black">reality</strong>
+              Turning your <strong class="text-black">ideas</strong> into &nbsp;
+              <strong class="text-black">reality</strong>
             </p>
             <div class="flex space-x-7 mt-6">
               <a href="https://twitter.com/yan_wai71169">
@@ -597,7 +604,54 @@ export default component$(() => {
           </div>
         </div>
       </section>
-      <section class="py-10 bg-white" id="contact">
+      <section class="py-10" id="portfolio">
+        <div class="container">
+          <h2 class="text-[1.5rem] kaushan-script-regular">Portfolio</h2>
+          <div class="columns-2 md:columns-3 gap-5 mt-5">
+            <a href="#" class="block mb-5" target="_blank">
+              <PortfolioImage
+                class="w-full aspect-auto"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <a
+              href="https://devwaiyanlinn.github.io/Travel-And-Tour/"
+              class="block mb-5"
+              target="_blank"
+            >
+              <TourImage
+                class="w-full aspect-auto"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <a
+              href="https://github.com/DevWaiYanLinn/emobot"
+              class="block mb-5"
+              target="_blank"
+            >
+              <EmobotImage
+                class="w-full aspect-auto"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <a
+              href="https://vercel.com/devwaiyanlinns-projects/pic-calc-bot"
+              class="block mb-5"
+              target="_blank"
+            >
+              <PicalcBotImage
+                class="w-full aspect-auto"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="py-10 bg-slate-50" id="contact">
         <div class="container">
           <h2 class="text-[1.5rem] kaushan-script-regular">Contact</h2>
           <form class="mt-5 poppins-light">
@@ -605,28 +659,28 @@ export default component$(() => {
               <div class="col-span-2 md:col-span-1">
                 <input
                   type="text"
-                  class="w-full pl-2 pb-2 border-b-2 focus:outline-none"
+                  class="w-full pl-2 py-2 border-b-2 focus:outline-none"
                   placeholder="Name*"
                 />
               </div>
               <div class="col-span-2 md:col-span-1">
                 <input
                   type="email"
-                  class="w-full pl-2 pb-2 border-b-2 focus:outline-none"
+                  class="w-full pl-2 py-2 border-b-2 focus:outline-none"
                   placeholder="Email*"
                 />
               </div>
               <div class="col-span-2 md:col-span-1">
                 <input
                   type="text"
-                  class="w-full pl-2 pb-2 border-b-2 focus:outline-none"
+                  class="w-full pl-2 py-2 border-b-2 focus:outline-none"
                   placeholder="Phone*"
                 />
               </div>
               <div class="col-span-2 md:col-span-1">
                 <input
                   type="text"
-                  class="w-full pl-2 pb-2 border-b-2 focus:outline-none"
+                  class="w-full pl-2 py-2 border-b-2 focus:outline-none"
                   placeholder="Subject*"
                 />
               </div>
@@ -634,11 +688,13 @@ export default component$(() => {
                 <textarea
                   placeholder="Message*"
                   rows={5}
-                  class="pl-2 pb-2 border-b-2 w-full resize-none focus:outline-none"
+                  class="pl-2 py-2 border-b-2 w-full resize-none focus:outline-none"
                 ></textarea>
               </div>
               <div>
-                <button class="px-8 py-2 border border-slate-300 poppins-light">SEND</button>
+                <button class="px-8 py-2 border border-slate-300 poppins-light">
+                  SEND
+                </button>
               </div>
             </div>
           </form>

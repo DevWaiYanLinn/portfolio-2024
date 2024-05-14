@@ -28,7 +28,7 @@ export default component$(() => {
       <main class="roboto-regular">
         <Slot />
       </main>
-      <footer class="poppins-light text-center text-sm bg-slate-50 py-5">
+      <footer class="poppins-light text-center text-sm bg-white py-5">
         <div>© Copyright <strong>MyResume</strong>. All Rights Reserved</div>
         <div>
           Created by <a href="https://qwik.dev" class=" text-purple-400 font-bold">Qwik</a>
