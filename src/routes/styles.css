@@ -192,7 +192,7 @@
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 
-.resume::before{
+.resume::before {
     position: absolute;
     content: '';
     width: 20px;
@@ -206,6 +206,76 @@
 }
 
 
-*{
+* {
     scroll-behavior: smooth;
+}
+
+@keyframes f {
+    from {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+.floating li {
+    position: absolute;
+    display: block;
+    bottom: -200px;
+    animation: f 15s infinite linear;
+}
+
+
+.floating li:nth-child(1) {
+    left: 25%;
+    animation-delay: 1s;
+}
+
+.floating li:nth-child(2) {
+    left: 40%;
+    animation-delay: 5s;
+}
+
+.floating li:nth-child(3) {
+    left: 80%;
+    animation-delay: 3s;
+}
+
+.floating li:nth-child(4) {
+    left: 70%;
+    animation-delay: 6s;
+}
+
+
+.floating li:nth-child(5) {
+    left: 90%;
+    animation-delay: 6s;
+}
+
+.floating li:nth-child(6) {
+    left: 63%;
+    animation-delay: 2s;
+}
+
+.floating li:nth-child(7) {
+    left: 10%;
+    animation-delay: 6.5s;
+}
+
+.floating li:nth-child(8) {
+    left: 20%;
+    animation-delay: 4.5s;
+}
+.floating li:nth-child(9) {
+    left: 15%;
+    animation-delay: 3s;
+}
+
+.floating li:nth-child(10) {
+    left: 0%;
+    animation-delay: 10s;
 }
