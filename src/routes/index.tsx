@@ -659,28 +659,28 @@ export default component$(() => {
               <div class="col-span-2 md:col-span-1">
                 <input
                   type="text"
-                  class="w-full pl-2 py-2 border-b-2 focus:outline-none"
+                  class="w-full pl-2 py-2 border focus:outline-none"
                   placeholder="Name*"
                 />
               </div>
               <div class="col-span-2 md:col-span-1">
                 <input
                   type="email"
-                  class="w-full pl-2 py-2 border-b-2 focus:outline-none"
+                  class="w-full pl-2 py-2 border focus:outline-none"
                   placeholder="Email*"
                 />
               </div>
               <div class="col-span-2 md:col-span-1">
                 <input
                   type="text"
-                  class="w-full pl-2 py-2 border-b-2 focus:outline-none"
+                  class="w-full pl-2 py-2 border focus:outline-none"
                   placeholder="Phone*"
                 />
               </div>
               <div class="col-span-2 md:col-span-1">
                 <input
                   type="text"
-                  class="w-full pl-2 py-2 border-b-2 focus:outline-none"
+                  class="w-full pl-2 py-2 border focus:outline-none"
                   placeholder="Subject*"
                 />
               </div>
@@ -688,11 +688,11 @@ export default component$(() => {
                 <textarea
                   placeholder="Message*"
                   rows={5}
-                  class="pl-2 py-2 border-b-2 w-full resize-none focus:outline-none"
+                  class="pl-2 py-2 border w-full resize-none focus:outline-none"
                 ></textarea>
               </div>
               <div>
-                <button class="px-8 py-2 border border-slate-300 poppins-light">
+                <button class="px-8 py-2 border border-slate-300 poppins-light bg-white">
                   SEND
                 </button>
               </div>
