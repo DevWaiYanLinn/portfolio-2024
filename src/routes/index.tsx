@@ -197,7 +197,7 @@ export default component$(() => {
               <strong class="text-black">reality</strong>
             </p>
             <div class="flex space-x-7 mt-6">
-              <a href="">
+              <a href="https://twitter.com/yan_wai71169">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -218,7 +218,7 @@ export default component$(() => {
                   ></path>
                 </svg>
               </a>
-              <a href="">
+              <a href="https://github.com/DevWaiYanLinn">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -237,7 +237,7 @@ export default component$(() => {
                   ></path>
                 </svg>
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/wai-yan-lin-809998260/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
