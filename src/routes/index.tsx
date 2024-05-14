@@ -630,12 +630,15 @@ export default component$(() => {
                   placeholder="Subject*"
                 />
               </div>
-              <div class=" col-span-2">
+              <div class="col-span-2">
                 <textarea
                   placeholder="Message*"
                   rows={5}
-                  class="pl-2 pb-2 border-b-2 w-full resize-none"
+                  class="pl-2 pb-2 border-b-2 w-full resize-none focus:outline-none"
                 ></textarea>
+              </div>
+              <div>
+                <button class="px-8 py-2 border border-slate-300 poppins-light">SEND</button>
               </div>
             </div>
           </form>
