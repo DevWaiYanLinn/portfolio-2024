@@ -30,7 +30,7 @@ export default component$(() => {
             <h2 class="text-[2.5rem] kaushan-script-regular">
               Hey! I am Clover
             </h2>
-            <p class="text-md text-slate-600 poppins-light">
+            <p class="text-md text-slate-600 poppins-light text-center">
               A freelance <strong class="text-black">web developer</strong>
               based in myanamar,
             </p>
