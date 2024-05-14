@@ -107,7 +107,7 @@ export default component$(() => {
       <section class=" bg-slate-50 py-10" id="skills">
         <div class="container">
           <h2 class="text-[1.5rem] kaushan-script-regular">SKILLS</h2>
-          <p class="mt-5 poppins-light">
+          <p class="mt-5 poppins-light text-[0.9rem]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
             quos omnis quibusdam iure enim eos perspiciatis sunt minus veniam
             laudantium maxime harum repudiandae modi necessitatibus similique
@@ -174,7 +174,7 @@ export default component$(() => {
       <section class="py-10 bg-white" id="resume">
         <div class="container">
           <h2 class="text-[1.5rem] kaushan-script-regular">RESUME</h2>
-          <p class="mt-5 poppins-light">
+          <p class="mt-5 poppins-light text-[0.9rem]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
             quos omnis quibusdam iure enim eos perspiciatis sunt minus veniam
             laudantium maxime harum repudiandae modi necessitatibus similique
@@ -190,10 +190,10 @@ export default component$(() => {
                 <h4 class="inline-block text-sm poppins-regular mt-3 bg-slate-300 p-2">
                   2015 - 2016
                 </h4>
-                <p class="poppins-light py-3">
+                <p class="poppins-light py-3 text-[0.9rem]">
                   Rochester Institute of Technology, Rochester, NY
                 </p>
-                <p class="poppins-light">
+                <p class="poppins-light text-[0.9rem]">
                   Qui deserunt veniam. Et sed aliquam labore tempore sed
                   quisquam iusto autem sit. Ea vero voluptatum qui ut
                   dignissimos deleniti nerada porti sand markend
@@ -206,10 +206,10 @@ export default component$(() => {
                 <h4 class="inline-block text-sm poppins-regular mt-3 bg-slate-300 p-2">
                   2015 - 2016
                 </h4>
-                <p class="poppins-light py-3">
+                <p class="poppins-light py-3 text-[0.9rem]">
                   Rochester Institute of Technology, Rochester, NY
                 </p>
-                <p class="poppins-light">
+                <p class="poppins-light text-[0.9rem]">
                   Qui deserunt veniam. Et sed aliquam labore tempore sed
                   quisquam iusto autem sit. Ea vero voluptatum qui ut
                   dignissimos deleniti nerada porti sand markend
@@ -227,10 +227,10 @@ export default component$(() => {
                 <h4 class="inline-block text-sm poppins-regular mt-3 bg-slate-300 p-2">
                   2015 - 2016
                 </h4>
-                <p class="poppins-light py-3">
+                <p class="poppins-light py-3 text-[0.9rem]">
                   Rochester Institute of Technology, Rochester, NY
                 </p>
-                <p class="poppins-light">
+                <p class="poppins-light text-[0.9rem]">
                   Qui deserunt veniam. Et sed aliquam labore tempore sed
                   quisquam iusto autem sit. Ea vero voluptatum qui ut
                   dignissimos deleniti nerada porti sand markend
@@ -246,7 +246,7 @@ export default component$(() => {
                 <p class="poppins-light py-3">
                   Rochester Institute of Technology, Rochester, NY
                 </p>
-                <p class="poppins-light">
+                <p class="poppins-light text-[0.9rem]">
                   Qui deserunt veniam. Et sed aliquam labore tempore sed
                   quisquam iusto autem sit. Ea vero voluptatum qui ut
                   dignissimos deleniti nerada porti sand markend
