@@ -348,7 +348,7 @@ export default component$(() => {
                 ></path>
               </svg>
               <h3 class="text-[1rem] poppins-regular my-2">WEB APPS</h3>
-              <p class="poppins-light text-md">
+              <p class="poppins-light text-[0.9rem]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Assumenda libero adipisci iste rerum deserunt possimus, commodi
                 dignissimos odit? Eveniet doloribus natus dolorem reiciendis
@@ -429,7 +429,7 @@ export default component$(() => {
                 ></path>
               </svg>
               <h3 class="text-[1rem] poppins-regular my-2">MOBILE APPS</h3>
-              <p class="poppins-light">
+              <p class="poppins-light text-[0.9rem]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Assumenda libero adipisci iste rerum deserunt possimus, commodi
                 dignissimos odit? Eveniet doloribus natus dolorem reiciendis
