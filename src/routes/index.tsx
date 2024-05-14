@@ -31,8 +31,8 @@ export default component$(() => {
               Hey! I am Clover
             </h2>
             <p class="text-md text-slate-600 poppins-light text-center">
-              A freelance <strong class="text-black">web developer</strong>
-              based in myanamar,
+              A freelance <strong class="text-black">web developer</strong>&nbsp;
+              based in myanamar
             </p>
             <p class="text-md text-slate-600 poppins-light">
               Turning your <strong class="text-black">ideas</strong> into
@@ -347,7 +347,7 @@ export default component$(() => {
                   stroke-width="1.5"
                 ></path>
               </svg>
-              <h3 class="text-sm my-2">WEB APPS</h3>
+              <h3 class="text-[1rem] poppins-regular my-2">WEB APPS</h3>
               <p class="poppins-light text-md">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Assumenda libero adipisci iste rerum deserunt possimus, commodi
@@ -428,7 +428,7 @@ export default component$(() => {
                   stroke-width="1.5"
                 ></path>
               </svg>
-              <h3 class="text-sm my-2">MOBILE APPS</h3>
+              <h3 class="text-[1rem] poppins-regular my-2">MOBILE APPS</h3>
               <p class="poppins-light">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Assumenda libero adipisci iste rerum deserunt possimus, commodi
