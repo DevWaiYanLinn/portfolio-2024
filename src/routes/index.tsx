@@ -408,7 +408,7 @@ export default component$(() => {
                 <h4 class="inline-block text-sm poppins-regular mt-3 bg-slate-300 p-2">
                   2015 - 2016
                 </h4>
-                <p class="poppins-light py-3">
+                <p class="poppins-light py-3 text-[0.9rem]">
                   Rochester Institute of Technology, Rochester, NY
                 </p>
                 <p class="poppins-light text-[0.9rem]">
