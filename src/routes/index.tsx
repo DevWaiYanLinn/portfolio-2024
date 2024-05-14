@@ -193,8 +193,8 @@ export default component$(() => {
               &nbsp; based in myanamar
             </p>
             <p class="text-md text-slate-600 poppins-light">
-              Turning your <strong class="text-black">ideas</strong>&nbsp; into
-              <strong class="text-black">reality</strong>
+              Turning your <strong class="text-black">ideas</strong> into 
+              &nbsp;<strong class="text-black">reality</strong>
             </p>
             <div class="flex space-x-7 mt-6">
               <a href="https://twitter.com/yan_wai71169">
