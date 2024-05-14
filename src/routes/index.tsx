@@ -32,7 +32,7 @@ export default component$(() => {
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">Projects</a>
               </li>
             </ul>
             <ul class="floating">
@@ -606,7 +606,7 @@ export default component$(() => {
       </section>
       <section class="py-10" id="portfolio">
         <div class="container">
-          <h2 class="text-[1.5rem] kaushan-script-regular">Portfolio</h2>
+          <h2 class="text-[1.5rem] kaushan-script-regular">What I Develop</h2>
           <div class="columns-2 md:columns-3 gap-5 mt-5">
             <a href="#" class="block mb-5" target="_blank">
               <PortfolioImage

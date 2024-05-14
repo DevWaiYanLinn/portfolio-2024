@@ -225,8 +225,8 @@
 .floating li {
     position: absolute;
     display: block;
-    bottom: -200px;
-    animation: f 15s infinite linear;
+    bottom: -50px;
+    animation: f 14s infinite linear;
 }
 
 
