@@ -606,7 +606,7 @@ export default component$(() => {
       </section>
       <section class="py-10" id="portfolio">
         <div class="container">
-          <h2 class="text-[1.5rem] kaushan-script-regular">What I Develop</h2>
+          <h2 class="text-[1.5rem] kaushan-script-regular">What I Developed</h2>
           <div class="columns-2 md:columns-3 gap-5 mt-5">
             <a href="#" class="block mb-5" target="_blank">
               <PortfolioImage
@@ -638,7 +638,7 @@ export default component$(() => {
               />
             </a>
             <a
-              href="https://vercel.com/devwaiyanlinns-projects/pic-calc-bot"
+              href="https://pic-calc-bot.vercel.app"
               class="block mb-5"
               target="_blank"
             >
@@ -705,11 +705,47 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'My Resume',
+  title: 'Clover',
   meta: [
     {
       name: 'Clover',
       content: 'Resume for work',
+    },
+    {
+      property: 'og:title',
+      content: 'Clover',
+    },
+    {
+      property: 'og:type',
+      content: 'website',
+    },
+    {
+      property: 'og:url',
+      content: 'https://portfolio-2024-three-woad.vercel.app/',
+    },
+    {
+      property: 'og:description',
+      content: 'Hey! I am clover.Web developer base in myanmar.',
+    },
+    {
+      property: 'og:site_name',
+      content: 'Clover Resume',
+    },
+    {
+      property: 'og:locale',
+      content: 'en_US',
+    },
+    {
+      property: 'article:author',
+      content: 'DevWaiYanLin',
+    },
+    {
+      property: 'twitter:title',
+      content: 'Clover',
+    },
+    {
+      property: 'twitter:description',
+      content:  'Hey! I am clover.Web developer base in myanmar.'
     },
   ],
 };
