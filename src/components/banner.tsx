@@ -2,14 +2,14 @@ import { component$ } from '@builder.io/qwik';
 export default component$(() => {
     return (
         <div class="absolute top-0 left-0 bottom-0 right-0 flex justify-center items-center flex-col">
-            <h2 class="text-[2.5rem] kaushan-script-regular">
+            <h2 class="text-[2.5rem] md:text-[3.5rem] kaushan-script-regular">
                 Hey! I am Clover
             </h2>
-            <p class="text-md text-slate-600 poppins-light text-center">
+            <p class="text-md md:text-2xl text-slate-600 poppins-light text-center">
                 A freelance <strong class="text-black">web developer</strong>
                 &nbsp; based in myanamar
             </p>
-            <p class="text-md text-slate-600 poppins-light">
+            <p class="text-md md:text-2xl text-slate-600 poppins-light">
                 Turning your <strong class="text-black">ideas</strong> into
                 &nbsp;
                 <strong class="text-black">reality</strong>
@@ -21,8 +21,8 @@ export default component$(() => {
                         fill="none"
                         viewBox="0 0 24 24"
                         id="X-Twitter-Logo--Streamline-Logos"
-                        height="17"
-                        width="17"
+                        height="20"
+                        width="20"
                     >
                         <desc>
                             X Twitter Logo Streamline Icon:
@@ -43,8 +43,8 @@ export default component$(() => {
                         fill="none"
                         viewBox="0 0 24 24"
                         id="Github-Logo-2--Streamline-Logos"
-                        height="17"
-                        width="17"
+                        height="20"
+                        width="20"
                     >
                         <desc>
                             Github Logo 2 Streamline Icon:
@@ -63,8 +63,8 @@ export default component$(() => {
                         fill="none"
                         viewBox="0 0 24 24"
                         id="Linkedin-Logo--Streamline-Logos"
-                        height="17"
-                        width="17"
+                        height="20"
+                        width="20"
                     >
                         <desc>
                             Linkedin Logo Streamline Icon:
