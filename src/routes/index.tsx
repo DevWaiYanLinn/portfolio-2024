@@ -4,6 +4,7 @@ import PortfolioImage from '~/media/images/2.jpg?jsx';
 import TourImage from '~/media/images/1.jpg?jsx';
 import PicalcBotImage from '~/media/images/3.jpg?jsx';
 import EmobotImage from '~/media/images/4.jpg?jsx';
+import Anime from '~/media/images/6.png?jsx';
 import Nav from '~/components/nav';
 import Banner from '~/components/banner';
 import Skill from '~/components/skill';
@@ -367,6 +368,18 @@ export default component$(() => {
                             />
                         </a>
                         <a
+                            href="https://anime-adventure-ig41.vercel.app/"
+                            class="block mb-5"
+                            target="_blank"
+                        >
+                            <Anime
+                                class="w-full aspect-auto"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                            
+                        </a>
+                        <a
                             href="https://github.com/DevWaiYanLinn/emobot"
                             class="block mb-5"
                             target="_blank"
@@ -387,6 +400,7 @@ export default component$(() => {
                                 loading="lazy"
                                 decoding="async"
                             />
+                            
                         </a>
                     </div>
                 </div>

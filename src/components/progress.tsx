@@ -9,9 +9,9 @@ export default component$(
                     <div>{percent}%</div>
                 </div>
                 <div
-                        class=" bg-slate-400 h-[5px]"
-                        style={{ width: `${percent}%` }}
-                    ></div>
+                    class=" bg-slate-400 h-[5px]"
+                    style={{ width: `${percent}%` }}
+                ></div>
             </div>
         );
     }
