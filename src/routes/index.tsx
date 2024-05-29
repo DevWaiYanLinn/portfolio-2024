@@ -5,6 +5,7 @@ import TourImage from '~/media/images/1.jpg?jsx';
 import PicalcBotImage from '~/media/images/3.jpg?jsx';
 import EmobotImage from '~/media/images/4.jpg?jsx';
 import Anime from '~/media/images/6.png?jsx';
+import NextTextImage from '~/media/images/7.png?jsx';
 import Nav from '~/components/nav';
 import Banner from '~/components/banner';
 import Skill from '~/components/skill';
@@ -14,7 +15,7 @@ export default component$(() => {
     return (
         <>
             <section
-                class="relative min-h-[50vh] md:min-h-[70vh] bg-white overflow-hidden"
+                class="relative min-h-[60vh] md:min-h-[75vh] bg-white overflow-hidden"
                 id="home"
             >
                 <div class="container">
@@ -396,6 +397,18 @@ export default component$(() => {
                             target="_blank"
                         >
                             <PicalcBotImage
+                                class="w-full aspect-auto"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                            
+                        </a>
+                        <a
+                            href="https://next-text-swart.vercel.app"
+                            class="block mb-5"
+                            target="_blank"
+                        >
+                            <NextTextImage
                                 class="w-full aspect-auto"
                                 loading="lazy"
                                 decoding="async"
