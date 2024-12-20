@@ -1,11 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import PortfolioImage from "~/media/images/2.jpg?jsx";
 import TourImage from "~/media/images/1.jpg?jsx";
-import PicalcBotImage from "~/media/images/3.jpg?jsx";
 import EmobotImage from "~/media/images/4.jpg?jsx";
 import Anime from "~/media/images/6.png?jsx";
-import NextTextImage from "~/media/images/7.png?jsx";
 import CloverAuctionImage from "~/media/images/9.jpg?jsx";
 import Nav from "~/components/nav";
 import Banner from "~/components/banner";
@@ -51,13 +48,13 @@ export default component$(() => {
               <h2 class="text-[1.3rem] poppins-medium">Education</h2>
               <div class="border-l-4 border-l-slate-400 pl-5 resume relative">
                 <h3 class="text-[1rem] poppins-regular">
-                  Bacherlor of Computer Science (B.C.Sc)
+                  Bachelor of Computer Science (B.C.Sc)
                 </h3>
                 <div class="inline-block text-sm poppins-regular mt-3 bg-slate-300 p-2">
                   2016 - 2022
                 </div>
                 <h4 class="poppins-medium py-3 text-[0.9rem]">
-                  Univesity of Computer Studies (Maubin)
+                  University of Computer Studies (Maubin)
                 </h4>
                 <p class="poppins-light text-[0.9rem] pb-3">
                   I graduated from the University of Computer Studies (Maubin) .
@@ -311,13 +308,6 @@ export default component$(() => {
         <div class="container">
           <h2 class="text-[1.5rem] kaushan-script-regular">What I Developed</h2>
           <div class="columns-2 md:columns-3 gap-5 mt-5">
-            <a href="#" class="block mb-5" target="_blank">
-              <PortfolioImage
-                class="w-full aspect-auto"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
             <a
               href="https://devwaiyanlinn.github.io/Travel-And-Tour/"
               class="block mb-5"
@@ -346,28 +336,6 @@ export default component$(() => {
               target="_blank"
             >
               <EmobotImage
-                class="w-full aspect-auto"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-            <a
-              href="https://pic-calc-bot.vercel.app"
-              class="block mb-5"
-              target="_blank"
-            >
-              <PicalcBotImage
-                class="w-full aspect-auto"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-            <a
-              href="https://next-text-swart.vercel.app"
-              class="block mb-5"
-              target="_blank"
-            >
-              <NextTextImage
                 class="w-full aspect-auto"
                 loading="lazy"
                 decoding="async"

@@ -1,8 +1,8 @@
-import { component$, Slot, useStyles$ } from '@builder.io/qwik';
-import { routeLoader$ } from '@builder.io/qwik-city';
-import type { RequestHandler } from '@builder.io/qwik-city';
+import { component$, Slot, useStyles$ } from "@builder.io/qwik";
+import { routeLoader$ } from "@builder.io/qwik-city";
+import type { RequestHandler } from "@builder.io/qwik-city";
 
-import styles from './styles.css?inline';
+import styles from "./styles.css?inline";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
@@ -29,9 +29,14 @@ export default component$(() => {
         <Slot />
       </main>
       <footer class="poppins-light text-center text-sm bg-white py-5">
-        <div>© Copyright <strong>MyResume</strong>. All Rights Reserved</div>
         <div>
-          Created by <a href="https://qwik.dev" class=" text-purple-400 font-bold">Qwik</a>
+          © Copyright <strong>WYL</strong>. All Rights Reserved
+        </div>
+        <div>
+          Created by{" "}
+          <a href="https://qwik.dev" class=" text-purple-400 font-bold">
+            Qwik
+          </a>
         </div>
       </footer>
     </>
