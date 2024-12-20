@@ -14,7 +14,7 @@ export default component$(() => {
         <strong class="text-black">reality</strong>
       </p>
       <div class="flex space-x-7 mt-6">
-        <a href="">
+        <a href="https://www.facebook.com/profile.php?id=100012499305627">
           <svg
             fill="#000000"
             width="23"
