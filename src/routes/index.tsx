@@ -5,7 +5,7 @@ import Resume from "~/components/resume";
 import Service from "~/components/service";
 import Portfolio from "~/components/portfolio";
 import Contact from "~/components/contact";
-import Home from "~/components/Home";
+import Home from "~/components/home";
 
 export default component$(() => {
   return (
